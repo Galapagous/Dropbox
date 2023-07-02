@@ -1,0 +1,13 @@
+.top-home{
+    padding: 1rem;
+    overflow: hidden;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}

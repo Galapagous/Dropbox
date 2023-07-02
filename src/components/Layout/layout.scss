@@ -1,0 +1,19 @@
+.layout-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    .left-side{
+    flex: 1;
+        height: 100%;
+    }
+    .right-side{
+        flex: 1.5;
+        height: 100%;
+    }
+    .main-area{
+        flex: 3;
+        height: 100%;
+    }
+}

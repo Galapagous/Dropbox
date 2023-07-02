@@ -1,0 +1,28 @@
+.icon-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    color: #6c6b7b;
+    &:hover svg{
+        width: 25px;
+        height: 25px;
+        color: whitesmoke;
+    }
+    &:hover p{
+        color: whitesmoke;
+    }
+    svg{
+        color: #565564;
+        transition: all;
+        transition-timing-function: ease-in-out;
+        transition-duration: 400ms;
+        width: 20px;
+        height: 20px;
+    }
+    p{
+        transition: all;
+        transition-timing-function: ease-in-out;
+        transition-duration: 200ms;
+    }
+}

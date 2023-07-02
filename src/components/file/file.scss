@@ -1,0 +1,38 @@
+.file_container{
+    width: 200px;
+    height: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 2rem;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 20px 10px;
+    background-color: #110f22;
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .file_system{
+        width: 150px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        button{
+            cursor: pointer;
+            width: 50px;
+            background-color: inherit;
+            border: none;
+            svg{
+                color: whitesmoke;
+            }
+        }
+        &:hover{
+            
+        }
+    }
+}
